@@ -4,6 +4,10 @@
 
 > 浙商大师生交流平台，聚焦浙商大新闻，提供校内小工具
 
+## 项目背景
+
+<img src="https://gitee.com/yzketx/image-markdown/raw/master/img/202203180951574.png" alt="image-20220318095123373" style="zoom:80%;" />
+
 ## 思维导图
 
 <img src="https://gitee.com/yzketx/image-markdown/raw/master/img/202203081856107.png" style="zoom:50%;" />

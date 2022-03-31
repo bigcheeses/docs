@@ -16,6 +16,10 @@
 
 详见链接 [鸽子广场·即时设计](https://js.design/f/Kh8vOZ?p=p4NfHwUO5n)
 
+## 数据库设计
+
+详见文件 [DB.md](前后端设计/backend/DB.md)
+
 ## 成员分工
 
 | 成员   | 分工           |

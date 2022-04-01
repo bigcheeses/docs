@@ -16,6 +16,10 @@
 
 详见链接 [鸽子广场·即时设计](https://js.design/f/Kh8vOZ?p=p4NfHwUO5n)
 
+## API设计
+
+详见链接 [咕咕API](https://www.apifox.cn/apidoc/shared-55d63385-68a5-4617-836b-9c343a4eb41a) `访问密码 : gugugu `
+
 ## 数据库设计
 
 详见文件 [DB.md](前后端设计/backend/DB.md)
@@ -34,11 +38,12 @@
 $ tree
 /.
 ├───docs
-│   ├───desgin
-│   │   ├───原型设计文档
-│   │   ├───
-│   │   └───
-│   ├───
+│   ├───前后端设计
+│   │   ├───backend
+│   │   │	└───DB.md
+│   │   ├───README.md
+│   │   └───鸽子广场ppt.pdf
+│   ├───鸽子广场.md
 │   └───README.md
 ```
 

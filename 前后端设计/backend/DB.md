@@ -13,8 +13,8 @@
 | intro       |        |                                                              |
 | admin_type  |        | 暂时只分管理员与普通用户                                     |
 | actived_at  |        | 最近活跃时间                                                 |
-| fan         |        | 粉丝数                                                       |
-| follow      |        | 关注数                                                       |
+| fan_num     |        | 粉丝数                                                       |
+| follow_num  |        | 关注数                                                       |
 | created_at  |        | 注册时间                                                     |
 | openid      | string | 【微信小程序】用户唯一标识                                   |
 | session_key | string | 【微信小程序】会话密钥                                       |
@@ -34,20 +34,20 @@
 
 ## 动态 Moment
 
-| 属性        | 类型 | 备注                                     |
-| ----------- | ---- | ---------------------------------------- |
-| id          |      |                                          |
-| user_id     |      |                                          |
-| content     |      |                                          |
-| images      |      | 动态附带的图片【暂时打算直接存url list】 |
-| like        |      | 点赞数【以下几个数，考虑redis缓存】      |
-| star        |      | 收藏数                                   |
-| comment     |      | 评论数                                   |
-| share       |      | 分享数                                   |
-| hot_comment |      | 热评id                                   |
-| created_at  |      | 创建时间                                 |
-| updated_at  |      | 最近编辑时间                             |
-| is_publish  |      | 是否公开                                 |
+| 属性         | 类型 | 备注                                     |
+| ------------ | ---- | ---------------------------------------- |
+| id           |      |                                          |
+| user_id      |      |                                          |
+| content      |      |                                          |
+| images       |      | 动态附带的图片【暂时打算直接存url list】 |
+| like_num     |      | 点赞数【以下几个数，考虑redis缓存】      |
+| star_num     |      | 收藏数                                   |
+| comment_num  |      | 评论数                                   |
+| share_num    |      | 分享数                                   |
+| hot_comment  |      | 热评id                                   |
+| created_at   |      | 创建时间                                 |
+| updated_at   |      | 最近编辑时间                             |
+| is_published |      | 是否公开                                 |
 
 ## 评论 Comment
 
@@ -59,7 +59,7 @@
 | parent_id  |      | 上级评论id |
 | created_at |      |            |
 | content    |      |            |
-| like       |      | 点赞数     |
+| like_num   |      | 点赞数     |
 
 ## 消息 Message
 
@@ -99,7 +99,7 @@
 | comment_id |      |      |
 | created_at |      |      |
 
-## 收藏表 Star
+## 收藏单 Star
 
 | 属性       | 类型 | 备注 |
 | ---------- | ---- | ---- |

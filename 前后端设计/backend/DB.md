@@ -71,23 +71,16 @@
 | content      |      |                         |
 | created_at   |      |                         |
 | type         |      | 文字/图片/视频【0/1/2】 |
-| read         |      | 是否已读                |
+| is_read      |      | 是否已读                |
 
-## 标签 Tag
+## 标签 Moment Tag
 
-| 属性    | 类型 | 备注     |
-| ------- | ---- | -------- |
-| id      |      |          |
-| name    |      |          |
-| use_num |      | 使用次数 |
-
-**Moment Tag**
-
-| 属性      | 类型 | 备注 |
-| --------- | ---- | ---- |
-| id        |      |      |
-| tag_id    |      |      |
-| moment_id |      |      |
+| 属性      | 类型 | 备注     |
+| --------- | ---- | -------- |
+| id        |      |          |
+| name      |      |          |
+| use_num   |      | 使用次数 |
+| moment_id |      |          |
 
 ## 点赞 Like
 
@@ -99,31 +92,33 @@
 | comment_id |      |      |
 | created_at |      |      |
 
-## 收藏单 Star
+## 收藏单 Moment Star
 
 | 属性       | 类型 | 备注 |
 | ---------- | ---- | ---- |
 | id         |      |      |
 | user_id    |      |      |
-| star_name  |      |      |
+| name       |      |      |
 | created_at |      |      |
+| is_publish |      |      |
 
-**Satr List**
+**Moment Satr List**
 
-| 属性      | 类型 | 备注 |
-| --------- | ---- | ---- |
-| id        |      |      |
-| moment_id |      |      |
-| star_id   |      |      |
+| 属性      | 类型 | 备注                          |
+| --------- | ---- | ----------------------------- |
+| id        |      |                               |
+| moment_id |      |                               |
+| star_id   |      |                               |
+| user_id   |      | 添加冗余，减少多表查询 (star) |
 
 ## 浏览记录 History
 
-| 属性       | 类型 | 备注 |
-| ---------- | ---- | ---- |
-| id         |      |      |
-| user_id    |      |      |
-| moment_id  |      |      |
-| created_at |      |      |
+| 属性      | 类型 | 备注         |
+| --------- | ---- | ------------ |
+| id        |      |              |
+| user_id   |      |              |
+| moment_id |      |              |
+| last_time |      | 最近浏览时间 |
 
 ## 热榜 Top【可以考虑加入redis】
 

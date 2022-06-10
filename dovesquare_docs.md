@@ -607,7 +607,7 @@ Django 视图是 MTV 设计模式中的 V，它在 Django 中的体现是一个 
 
 采用了u-sticky组件包裹u-tabs标签页组件，实现了顶部标签页组的吸附，可以时刻置顶。再将current的V-model与本地current属性绑定，设置监听。利用V-show命令实现动态的标签页显示与隐藏。
 
-<img src="img/%E5%88%87%E6%8D%A2.png" alt="切换" style="zoom: 50%;" />
+<img src="img/%E5%88%87%E6%8D%A2.gif" alt="切换" style="zoom: 50%;" />
 
 ## 6.5 个人中心模块的实现 [王俊涵]
 
@@ -1059,6 +1059,8 @@ coverage html -d html_test
 # 十、功能展示 [王俊涵]
 
 [鸽子广场 · 小程序演示](https://github.com/bigcheeses/docs/tree/main/演示)
+
+
 
 # 十一、清单 [叶泽楷、林悦章、王俊涵]
 

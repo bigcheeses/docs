@@ -324,7 +324,7 @@ Django 视图是 MTV 设计模式中的 V，它在 Django 中的体现是一个 
 | /api/v1/message | POST     | 发送私信                 |
 | /api/v1/message | POST     | 更新私信的未读状态       |
 
-# 五、数据库设计 [李四]
+# 五、数据库设计 [林悦章、叶泽楷]
 
 ![db](img/db.png)
 

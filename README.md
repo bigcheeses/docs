@@ -1,5 +1,9 @@
 # Big Cheeses Docs
 
+## 温馨提示
+
+==项目最终文档为 dovesquare_docs.md，请优先以 `Markdown` 格式的文件为准。==
+
 ## 项目简介
 
 浙商大动态圈
